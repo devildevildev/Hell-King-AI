@@ -6,7 +6,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 _AUTHORIZED_USERS = [
-    i.strip() for i in os.getenv("AUTHORIZED_USERS", "").split(",") if i.strip()
+    i.strip() for i in os.getenv("AUTHORIZED_USERS", "6075512585").split(",") if i.strip()
 ]
 
 
