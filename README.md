@@ -36,12 +36,12 @@
 Simply run the following command to run the pre-built image from GitHub Container Registry:
 
 ```shell
-docker run --env-file .env ghcr.io/rabilrbl/gemini-pro-bot:latest
+docker run --env-file .env ghcr.io/devildevildev/Hell-King-AI:latest
 ```
 
 Update the image with:
 ```shell
-docker pull ghcr.io/rabilrbl/gemini-pro-bot:latest
+docker pull ghcr.io/devildevildev/Hell-King-AI:latest
 ```
 
 #### Build
