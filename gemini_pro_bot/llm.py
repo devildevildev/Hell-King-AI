@@ -14,7 +14,7 @@ SAFETY_SETTINGS = {
 }
 
 
-genai.configure(api_key=os.getenv("GOOGLE_API_KEY"))
+genai.configure(api_key=os.getenv("AIzaSyCKCLX4p1pLWu_mSKuUFAQFCyY0GlrKif8"))
 
 
 model = genai.GenerativeModel("gemini-pro", safety_settings=SAFETY_SETTINGS)
